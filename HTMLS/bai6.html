@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bài 6</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr style="border: 2px solid red;">
+                <td style="background-color:rgb(250, 248, 88)"colspan="2" align="center"><h1 style=" color: red"; >Registration Form</h1></td>
+            </tr>
+                <colgroup>
+                    <col span="2" style="background-color: rgb(83, 239, 239);">
+                </colgroup>
+                <tr>
+                    <td width="150" align="center">Enter Name</td>
+                    <td><input type="text" name="txtName"></td>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Enter Password</td>
+                    <td><input type="password" name="pwPassword"></td>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Enter Address</td>
+                    <textarea name="txtComment" id="txtComment" rows="5" cols="20"></textarea>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Select Game</td>
+                    <td>
+                        <input type="checkbox" name="ckLevel" valua="1">Hockey <br>
+                        <input type="checkbox" name="ckLevel" valua="2">Football <br>
+                        <input type="checkbox" name="ckLevel" valua="3">Badminton <br>
+                        <input type="checkbox" name="ckLevel" valua="4">Cricket <br>
+                        <input type="checkbox" name="ckLevel" valua="5">Volleyball
+                    </td>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Gender</td>
+                    <td>
+                        <input type="radio" name="rdGender" value="1">Male
+                        <input type="radio" name="rdGender" value="0">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Select ur age</td>
+                    <td>
+                        <select name="course">
+                                <option value="1">15</option>
+                                <option value="2">16</option>
+                                <option value="3">17</option>
+                                <option value="4">18</option>
+                                <option value="5">19</option>
+                                <option value="6">20</option>
+                                <option value="7">21</option>
+                                <option value="8">More than 22</option>
+                                <option selected value="9">Select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="150" align="center">Select Photo</td>
+                    <td><input type="file"name="avatar"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+        </table>
+    </body>
+</html>

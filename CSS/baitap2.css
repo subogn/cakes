@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper{ 
+    width: 100%;
+    height: 1800px;
+    background-color: bisque;
+}
+.content{
+    height: 50px;
+    background-color: #ffff;
+}
+.content h1{
+    font-size: 30px;
+    float: left;
+    margin: 8px;
+}
+.content ul{
+    text-align: right;
+    padding: 12px;
+    padding-right: 50px;
+}
+.content li{
+    display: inline;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.content li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+header{
+    background-color: #ffff;
+}
+header img{
+    width: 100%;
+    
+}
+.product{
+    height: 1000px;
+    background-color:#ffff ;
+}
+.product h2{
+    font-size: 40px;
+    text-align: center;
+}
+.menu{
+    height: 1000px;
+    background-color: #e9f9eb;
+    width: 95%;
+    margin: 0 auto;
+}
+.menu img{
+   height: 100%;
+}
+.menu1{
+    float: left;
+    width: 94%;
+    border: 1px solid black;
+    height: 20%;
+    margin: 2% 3%;  
+}
+.product1{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2;
+}
+.product2{
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2;
+    margin-left: 51%;
+}
+.menu2{
+    float: left;
+    width: 94%;
+    border: 1px solid black;
+    height: 20%;
+    margin: 0% 3%;  
+}
+.product3{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2; 
+}
+.product4{
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2;
+    margin-left: 51%;
+}
+.menu3{
+    float: left;
+    width: 94%;
+    border: 1px solid black;
+    height: 20%;
+    margin: 2% 3%;  
+}
+.product5{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2; 
+}
+.product6{
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2;
+    margin-left: 51%;
+}
+.menu4{
+    float: left;
+    width: 94%;
+    border: 1px solid black;
+    height: 20%;
+    margin: 0% 3%;  
+}
+.product7{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2; 
+}
+.product8{
+    width: 49%;
+    height: 100%;
+    background-color: #c2dfc2;
+    margin-left: 51%;
+}
+footer{
+    height: 200px;
+    background-color: #a1cfff ;
+}

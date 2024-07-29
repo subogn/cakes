@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+}
+#a1{
+    border-top: 5px solid lightblue;
+    border-left: 5px solid lightblue;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+#a1:hover{
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+}
+#a2{
+    border: 1px solid green;
+    outline-style: dashed;
+}
+#a3{
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px green;
+}
+#a4{
+    border: 1px solid green;
+    border-top-left-radius: 30px;
+}
+#a5{
+    background-image:url(../Images/flower.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}

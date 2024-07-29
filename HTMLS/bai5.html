@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bài 5</title>
+    </head>
+    <body>
+        <form name="forml" action="xuly.php" method="get"></form>
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <table>
+                <tr>
+                    <td width="150">Họ tên</td>
+                    <td><input type="text" name="txtName"></td>
+                </tr>
+                <tr>
+                    <td width="150">Email</td>
+                    <td><input type="email" name="txtEmail"></td>
+                </tr>
+                <tr>
+                    <td width="150">Ngày sinh</td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td width="150">Giới tính</td>
+                    <td>
+                        Male<input type="radio" name="rdGender" value="1">
+                        Female<input type="radio" name="rdGender" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="150">Trình độ</td>
+                    <td>
+                        <input type="checkbox" name="ckLevel" valua="1">Đại học
+                        <input type="checkbox" name="ckLevel" value="2">Cao đẳng
+                         
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hình ảnh cá nhân</td>
+                    <td><input type="file" name=avatar></td>
+                </tr>
+            </table>
+        </fieldset>
+        <select name="course">
+            <optgroup label="Multimedia">
+                <option value="1">Window Media</option>
+                <option value="2">Jet Audio 9</option>
+            </optgroup>
+            <optgroup label="Operation System">
+                <option value="3">Window XP</option>
+                <option value="4">Window XP</option>
+                <option value="5">Window Vista</option>
+            </optgroup>
+                <option selected value="6">Office</option>
+        </select>
+        <br>
+        <p></p>
+        <textarea name="comment" row="4" cols="50">Nội dung mặc định</textarea>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+/* 1. Tất cả các tag p có màu xanh <hr> */
+p{
+    background-color: aquamarine;
+}
+/* 2. Tag p có id=p3 có nền xám <hr> */
+#p3{
+    background-color: gray;
+}
+/* 3. Các tag p thuộc class thongtin có border, chữ màu xanh <hr> */
+.thongtin{
+    border: 2px solid ;
+    color: green;
+}
+/* 4. Tag có id=p1 và các tag h1-h6 có màu chữ đỏ <hr> */
+#p1,h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+/* 5. Tất cả các phần tử trên trang web có border <hr> */
+body{
+    border: 2px;
+}
+/* 6. Các tag h1-h6, các tag p thuộc class thongtin và information có nền xám <hr> */
+.Information,.thongtin{
+    background-color: gray;
+}
+/* 7. Các tag a là con của tag div có border <hr> */
+/* 8. các tag a là con hay cháu của tag div có nền xám <hr> */
+/* 9. Tag a mà nằm ngay dưới tag a khác có nền xanh <hr> */
+/* 10. Tag a mà nằm dưới các tag a khác có nền vàng <hr> */
+/* 11. Tất cả các tag a:  bình thường chữ màu đen, khi đang active: màu đỏ, đã click: màu cam, khi đưa con trỏ ngang qua: màu vàng <hr> */
+/* 12.Border tất cả các tag div <hr> */
+/* 13. Tag h1 đầu tiên chữ màu tím, Tag div ở trên có màu nền vàng  <hr> */
+/* 14. Tag a không có thuộc tính href có chữ màu đỏ <hr> */
+/* 15. Các tag a nằm trong tag p có màu đỏ<hr> */
+/* 16. Các tag a và tag h1 có màu nền tím <hr> */
+/* 17. Tag p là  con đầu tiên của tag div có màu nền đỏ <hr> */
+/* 18. input khi focus có border màu đỏ <hr> */
+/* 19. Border các ô trong bảng <hr> */
+/* 20. Hàng đầu tiên của bảng có nền vàng <hr> */
+/* 21. Các hàng lẻ trong bảng có màu nền xanh <hr> */
+/* 22. Trước mỗi đoạn văn chèn chữ "---Begin---" <hr> */
+/* 23. Sau mỗi đoạn văn chèn chữ "---end---"<hr> */

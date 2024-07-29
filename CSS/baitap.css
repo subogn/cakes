@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    min-height: 6500px;
+    background-color:#fff ;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+header{
+    height: 350px;
+    background-color: #b9d6f3;
+}
+header img{
+    width: 100%;
+    height: 350px;
+}
+.content{
+    display: flex;
+    height: 50px;
+    background-color: #efb0c9;;
+}
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/static/PlaywriteIS-Regular.ttf);
+}
+.content li a{
+    text-decoration: none;
+    font-family: myfont;
+    font-size: 12px;
+    color: #f33672;
+    font-weight: bolder;
+    
+}
+.content li a:hover{
+    color:white
+}
+.content li {
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+    padding-top: 15px;
+    
+}
+.store{
+    display: flex;
+    height: 890px;
+    background-color: #f33672;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-left{
+    width: 72%;
+    background-color: #f4c2d7;
+    height: 700px;
+}
+.product-left img{
+    width: 180px;
+    height: 180px;
+    margin: 8px ;
+    border-radius: 10px;
+}
+.product{
+    background-color: #f8dae6;
+    margin: 10px;
+    border-radius: 15px;
+    height: 220px;
+}
+@font-face {
+    font-family: font2;
+    src: url(../fonts/PlaywriteSK-Regular.ttf);
+}
+.product h2{
+    font-family: font2;
+    font-size: 20px;
+    color: #fc0264;
+}
+ .product h2:hover{
+    color: white;
+ }
+ 
+/*/chỉnh tiêu đề/*/
+#item1{
+    position: relative;
+    left: 58%;
+    bottom: 190px;
+}
+#item2{
+    position: relative;
+    left: 62%;
+    bottom: 190px;
+}
+#item3{
+    position: relative;
+    left: 62%;
+    bottom: 190px;
+}
+/*/chỉnh nội dung/*/
+#item11{
+    width: 50%;
+    position: relative;
+    left: 45%;
+    bottom: 190px; 
+    text-align: justify;
+}
+#item22{
+    width: 50%;
+    position: relative;
+    left: 45%;
+    bottom: 190px;
+    text-align: justify;
+    
+}
+#item33{
+    width: 49%;
+    position: relative;
+    left: 45%;
+    bottom: 190px;
+    text-align: justify;
+}
+.product p{
+    font-family: font2;
+    font-size: 11px;
+    color: #fc0264;
+}
+.message-right{
+    width: 28%;
+    background-color: #f8dae9;
+    height: 700px;
+}
+.message-right h3,span,p{
+    font-family: myfont;
+    color: #fc0264;
+    text-align: justify;
+    margin: 0 8px;
+}
+.message-right h1{
+    font-family: font2;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #fc0264;
+    text-align: center;
+    border-bottom:1px solid #eea6c3;
+}
+.message-right span{
+    font-weight: bold;
+}
+#a1{
+    font-weight: bold;
+}
+.moreproduct{
+    display: flex;
+    height: 180px;
+    background-color: #efb0c9;
+    width: 100%;
+    padding: 5px;
+    
+}
+.moreproduct img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 8px ;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+}
